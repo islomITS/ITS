@@ -21,7 +21,6 @@ ul {
 }
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -36,6 +35,7 @@ html {
 
 body , html {
     min-width: 400px;
+    overflow-x: hidden;
 }
 .about .row > * {
     padding-right: 0 !important;
